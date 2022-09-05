@@ -1,0 +1,31 @@
+// Calculadora, pegar numeros separar em arrays ou objetos, criar métodos de operações
+
+// O QUE EU PRECISO ?
+// Uma calculadora que pegue dois numeros e realize uma operação com somente dois valores evitando assim bugs. Ao clicar novamente no segundo simbolo quero que ela mostre o result e o simbolo clicado esperando a ação do usuário para realizar a operação com o simbolo que ele já clicou antes,  sendo possivel fazer qualquer tipo de operação sem problemas e grandes modificações para adicionar mais de uma operação
+
+// O QUE NÃO QUERO 
+// Calcuadora que realize operação com mais de dois valores, bugs ou código muito sujo.
+
+// Como trabalhar com os numeros ?
+
+// Solução 1 - Amazenar em uma array após aparecer um simbolo na operação e realizar a operação após ser detectado outro simbolo 
+
+// Probelmas-1: Ter que criar uma condicional para pegar somente a primeira operação do primeiro simbolo.
+
+// Problemas-2: Ao criar com condicional ela irá executar a primeira condição que encontrar isso pode causar erros, deixando de executar ultimas operações que estão abaixo dos códigos passados abaixo 
+
+
+// Solução 2 - Amazenar em um objeto e somar os dois após detectar outro simbolo,
+
+// Solução 3 - Armazenar em variável n1 e n2, após armazenar realizar operação quando detectado outro sibolo na tela,
+
+// Desafios de qualquer SOLUÇÃO Tranformar string em numeros, armazenar valores, detectar segundo simbolo, realizar a soma do primeiro simbolo.
+
+
+// Método 1 - Verifica se a operação possui o sinal igual do clicado, após isso aguarda o numero para realizar a operação 
+// Método 2 - Verilfica ao retorno da string inteira se possui i sinal igial da string após isso retorna a operação 
+
+// Solução Método 1 - Observaar String a todo momento, e após clicar no simbolo ela cria o n2 e aguarda o proximo simbolo para result 
+// Solução método 2 - Criar duas variáveis n1 & n2 e retornar a operação da função reqisitada em outra variável chamada resultoperation
+
+// Resolvendo soluções após implementado a solução 2 É preciso entender que precisa de um método para criar n1 e n2 e como será feito, será básicamente a cópia de armazenar da solução 1 mas o retorno após verificar a string inteira e retornar o result após o clique no simbolo.
